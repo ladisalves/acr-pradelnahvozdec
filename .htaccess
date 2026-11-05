@@ -1,0 +1,6 @@
+# Compatibility redirects for existing bookmarks and search results (Apache).
+DirectoryIndex index.html
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^(index|services|order|partners|footprint|contact|bazar)\.php$ $1.html [R=301,L]
+</IfModule>

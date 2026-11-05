@@ -1,0 +1,398 @@
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+	font-size: 12px;
+	background-color: #333;
+	background-repeat: repeat-x;
+	line-height: 16px;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;
+}
+h1 {
+	font-size: 20px;
+	line-height: 20px;
+	font-style: normal;
+	text-decoration: none;
+	color: #0CF;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 20px 0px 20px 0px;
+}
+h2 {
+	font-size: 16px;
+	font-style: normal;
+	text-decoration: none;
+	color: #0CF;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px 0px 0px 0px;
+}
+h3 {
+	font-size: 16px;
+	font-style: normal;
+	text-decoration: none;
+	color: #0CF;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px 0px 0px 15px;
+}
+h4 {
+	font-size: 20px;
+	line-height: 20px;
+	font-style: normal;
+	text-decoration: none;
+	color: #0CF;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 20px 0px 0px 15px;
+}
+h5 {
+	font-size: 12px;
+	line-height: 16px;
+	font-style: normal;
+	text-decoration: none;
+	color: #0CF;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px 0px 0px 0px;
+}
+h6 {
+	font-size: 46px;
+	line-height: 46px;
+	font-style: normal;
+	text-decoration: none;
+	color: #FFF;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px 0px 0px 0px;
+	margin-bottom: 0;
+}
+a img {
+	border: none;
+}
+a:link {
+	color:#0CF;
+	text-decoration: underline;
+}
+a:visited {
+	color: #0CF;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus {
+	color: #FFF;
+	text-decoration: none;
+}
+.back {
+	width: 100%;
+	min-height: 100%;
+	background-color: #505050;
+	margin: 0;
+	padding: 0;
+	background-image: url(../images/back.jpg);
+	background-repeat: repeat-x;
+}
+.container {
+	width: 1000px;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+.header {
+	width: 100%;
+	float: left;
+	margin: 0px;
+	padding: 0px 0px 0px 50px;
+	height: 210px;
+	background-image: url(../images/theme.jpg);
+	background-repeat: no-repeat;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333;
+	font-weight: normal;
+}
+.header a {
+	color: #333;
+}
+.content {
+	padding: 0px 50px;
+	width: 88%;
+	float: left;
+}
+.content p {
+	padding: 0px 0px 5px 0px;
+}
+.content1 {
+	padding: 0px 0px 0px 50px;
+	width: 44%;
+	float: left;
+}
+.content1 p {
+	padding: 0px 15px 10px 0px;
+}
+.content2 {
+	padding: 0px 50px 0px 0px;
+	width: 44%;
+	float: left;
+}
+.content2 p {
+	padding: 0px 0px 10px 15px;
+}
+.content1 ul, .content1 ol, .content ul, .content ol {
+	padding: 5px 15px;
+	list-style-type: disc;
+}
+.content1 li, .content2 li, .content li {
+	padding: 5px 0px;
+}
+.content2 ul, .content2 ol {
+	padding: 8px 15px 9px 30px;
+	list-style-type: disc;
+}
+.nav {
+	width: 100%;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	height: 40px;
+}
+.nav ul { /* all lists */
+	color: #333;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+	margin: 0px;
+	padding: 0px 50px;
+	list-style: none;
+	font-size: 11px;
+}
+.nav li { /* all list items */
+	display: block;
+	color: #FFF;
+	float: left;
+	margin-right: 10px;
+	width: 120px;
+	text-decoration: none;
+	height: 40px;
+	background-image: url(../images/menu_hover.jpg);
+	background-repeat: no-repeat;
+	line-height: 35px;
+}
+.nav li a {
+	display:block;
+	color: #333;
+	text-decoration: none;
+	background-image: url(../images/menu_a.jpg);
+	background-repeat: no-repeat;
+}
+.nav li a:hover, .nav li a:active, .nav li a:focus {
+	color: #FFF;
+	display:block;
+	text-decoration: none;
+	background-image: url(../images/menu_hover.jpg);
+	background-repeat: no-repeat;
+}
+.footer {
+	width: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+}
+.fcontainer {
+	width: 1000px;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+.fleft {
+	padding: 20px 50px;
+	float:left;
+	text-align: left;
+	width: 39%;
+}
+.fright {
+	padding: 20px 50px;
+	float:left;
+	text-align: right;
+	width: 39%;
+}
+.fright ul { /* all lists */
+	color: #FFF;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: normal;
+	text-align: right;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-size: 12px;
+}
+.fright li { /* all list items */
+	float: right;
+	margin-left: 10px;
+	text-decoration: none;
+}
+.fright li a {
+	color: #0CF;
+	text-decoration: underline;
+}
+.fright li a:hover, .nav li a:active, .nav li a:focus {
+	color: #FFF;
+	text-decoration: none;
+}
+.imgboxl {
+	width: 96%;
+	height: 95px;
+	float: left;
+	padding: 0px;
+	margin: 0px;
+	background-color: #666;
+	text-decoration: none;
+	text-align: center;
+}
+.imgboxr {
+	width: 96%;
+	height: 95px;
+	float: right;
+	padding: 0px;
+	margin: 0px;
+	background-color: #666;
+	text-decoration: none;
+	text-align: center;
+}
+.img {
+	padding: 15px 5px;
+	background-color: #666;
+	text-decoration: none;
+	text-align: center;
+}
+.img50 {
+	padding: 22px 5px;
+	background-color: #666;
+	text-decoration: none;
+	text-align: center;
+}
+.imgfooter {
+	width: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #505050;
+}
+.imgfleft {
+	padding: 20px 0px 20px 50px;
+	float:left;
+	text-align: left;
+	width: 44%;
+}
+.imgfright {
+	padding: 20px 50px 20px 0px;
+	float:left;
+	text-align: left;
+	width: 44%;
+}
+.clear {
+	clear: both;
+}
+#lightbox {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+}
+#lightbox img {
+	width: auto;
+	height: auto;
+}
+#lightbox a img {
+	border: none;
+}
+#outerImageContainer {
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+#imageContainer {
+	padding: 10px;
+}
+#loading {
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+}
+#hoverNav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+}
+#imageContainer>#hoverNav {
+	left: 0;
+}
+#hoverNav a {
+	outline: none;
+}
+#prevLink, #nextLink {
+	width: 49%;
+	height: 100%;
+	background-image: url(data:../images/gif;base64,AAAA); /* Trick IE into showing hover */
+	display: block;
+}
+#prevLink {
+	left: 0;
+	float: left;
+}
+#nextLink {
+	right: 0;
+	float: right;
+}
+#prevLink:hover, #prevLink:visited:hover {
+	background: url(../images/prevlabel.gif) left 15% no-repeat;
+}
+#nextLink:hover, #nextLink:visited:hover {
+	background: url(../images/nextlabel.gif) right 15% no-repeat;
+}
+#imageDataContainer {
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	overflow: auto;
+	width: 100%;
+}
+#imageData {
+	padding:0 10px;
+	color: #666;
+}
+#imageData #imageDetails {
+	width: 70%;
+	float: left;
+	text-align: left;
+}
+#imageData #caption {
+	font-weight: bold;
+}
+#imageData #numberDisplay {
+	display: block;
+	clear: left;
+	padding-bottom: 1.0em;
+}
+#imageData #bottomNavClose {
+	width: 66px;
+	float: right;
+	padding-bottom: 0.7em;
+	outline: none;
+}
+#overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+	background-color: #000;
+}
